@@ -1,0 +1,37 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main > img{
+    width: 100%;
+    max-width: 1176px;
+}
+
+.team{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    max-width: 1176px;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.team img {
+    width: 174px;
+    height: 174px;
+    border-radius: 87px;
+    border-width: 5px;
+    border-color: #FFFFFF;
+    object-fit: cover;
+}
+
+.team .part{
+    text-align: center;
+}

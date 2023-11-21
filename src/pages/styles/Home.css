@@ -1,0 +1,35 @@
+.main-home{
+    display: flex;
+    flex-direction: column;
+}
+
+.desc {
+    max-width: 780px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #9095A0FF;
+}
+
+.joinus{
+    width: 100%;
+    max-width: 1176px;
+    background-color: rgb(204, 204, 255);
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 20px;
+
+    background-image: url('../../../public/images/joinus-bg.png'); /* Reference to the image in the public folder */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.joinus > p{
+    color: #9095A0FF;
+    max-width: 510px;
+    text-align: center;
+
+}

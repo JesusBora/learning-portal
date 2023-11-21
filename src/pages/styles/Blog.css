@@ -1,0 +1,26 @@
+.main {
+    width: 100%;
+    max-width: 1176px;
+}
+
+.cards{
+    width: 100%;
+    max-width: 1176px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-card{
+    width: 376px;
+    height: 410px;
+}
+
+.blog-card > img{
+    width: 376px;
+    height: 256px;
+    object-fit: cover;   
+}
