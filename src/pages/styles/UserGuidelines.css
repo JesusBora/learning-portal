@@ -1,0 +1,36 @@
+.main-guidelines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guidelines-content {
+    width: 100%;
+    max-width: 600px;
+    background-color: rgb(204, 204, 255);
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.guidelines-content p {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.guidelines-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.guidelines-content li {
+    color: #666;
+    margin-bottom: 5px;
+}

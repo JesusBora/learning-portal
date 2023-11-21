@@ -84,11 +84,11 @@ const RegistrationForm = ({ maxDate }) => {
     try {
       const roleEndpoint = role === 'Student' ? endpoints.students : endpoints.trainers;
 
+      console.log(roleEndpoint)
       const response = await fetch(roleEndpoint, {
-        method: 'PUT',
+        method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Access-Control-Allow-Origin': '*',
         },
         body: JSON.stringify(payload),
       });

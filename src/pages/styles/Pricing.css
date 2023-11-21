@@ -1,0 +1,40 @@
+.main-pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.pricing-option {
+    width: 250px;
+    background-color: rgb(204, 204, 255);
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-option h2 {
+    color: #333;
+}
+
+.pricing-option p {
+    color: #666;
+    text-align: center;
+}
+
+.price {
+    font-size: 1.5rem;
+    color: #009688;
+    font-weight: bold;
+}
